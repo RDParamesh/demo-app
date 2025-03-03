@@ -1,0 +1,19 @@
+name: Deploy Angular to GHCR
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Login to GitHub Container Registry
+        run: echo "${{ secrets.GHCR_PAT }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+      - name: Build Docker Image
+        run: docker build -t ghcr.io/${{ github.repository }}/angular-app:latest .
+
+      - name: Push Docker Image
+        run: docker push ghcr.io/${{ github.repository }}/angular-app:latest
