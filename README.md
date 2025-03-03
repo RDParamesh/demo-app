@@ -1,4 +1,4 @@
-# DemoApp
+![image](https://github.com/user-attachments/assets/1df646ba-46ea-4964-8291-08e05f8b8174)# DemoApp
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
 
@@ -38,11 +38,12 @@ then push our code to github by follwing below commands
 git add .
 git commit -m "pushing my angular-app"
 git push -u origin master
-,,,
+```
 
 ## github checking
 
 go to action section and click on workflows name it will execute the steps present in .github/workflows/main.yml
+
 
 
 
