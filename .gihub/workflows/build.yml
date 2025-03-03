@@ -13,8 +13,8 @@ jobs:
         run: echo "${{ secrets.GHCR_PAT }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
       - name: Build Docker Image
-        run: docker build -t ghcr.io/rdparamesh/angular-app:latest .
+        run: docker build -t ghcr.io/rdparamesh/demo-app:latest .
 
 
       - name: Push Docker Image to GHCR
-        run: docker push ghcr.io/rdparamesh/angular-app:latest
+        run: docker push ghcr.io/rdparamesh/demo-app:latest
