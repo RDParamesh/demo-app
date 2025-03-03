@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1df646ba-46ea-4964-8291-08e05f8b8174)# DemoApp
+
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
 
@@ -44,7 +44,13 @@ git push -u origin master
 
 go to action section and click on workflows name it will execute the steps present in .github/workflows/main.yml
 
+screenshots:
+![image](https://github.com/user-attachments/assets/722fb6c5-3ee8-4d34-965c-65568852950d)
+
 ![image](https://github.com/user-attachments/assets/5aaedf3d-1b4d-458f-8f7b-edddc972e331)
+
+![image](https://github.com/user-attachments/assets/f21344f3-b6d2-446e-abef-185b8ee22bfd)
+
 
 
 
