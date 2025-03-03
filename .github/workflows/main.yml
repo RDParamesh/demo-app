@@ -16,4 +16,4 @@ jobs:
         run: docker build -t ghcr.io/rdparamesh/demo-app-angular:latest ..
 
       - name: Push Docker Image
-        run: docker push ghcr.io/${{ github.repository }}/angular-app:latest
+        run: docker push ghcr.io/rdparamesh/demo-app-angular:latest
