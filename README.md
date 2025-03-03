@@ -44,7 +44,7 @@ git push -u origin master
 
 go to action section and click on workflows name it will execute the steps present in .github/workflows/main.yml
 
-<img width="1495" alt="Screenshot 2025-03-03 at 9 17 38 AM" src="https://github.com/user-attachments/assets/ef7d56ff-ae7c-4ef2-b8f3-16c1dced9361" />
+
 
 
 
