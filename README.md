@@ -44,7 +44,7 @@ git push -u origin master
 
 go to action section and click on workflows name it will execute the steps present in .github/workflows/main.yml
 
-screenshots:
+## screenshots:
 ![image](https://github.com/user-attachments/assets/722fb6c5-3ee8-4d34-965c-65568852950d)
 
 ![image](https://github.com/user-attachments/assets/5aaedf3d-1b4d-458f-8f7b-edddc972e331)
